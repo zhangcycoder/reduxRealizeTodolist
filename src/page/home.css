@@ -1,0 +1,62 @@
+.box
+{
+    height: 900px;
+}
+.logo
+{
+    font-size: 30px;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-weight: 600
+}
+.handleTitle
+{
+    display: inline-flex;
+    width: 100%;
+    /* background: aqua; */
+    justify-content: flex-start;
+    align-items: center;
+}
+.handleTitle_inp
+{
+    width: 400px;
+    margin-left: 20px;
+}
+.trigger
+{
+    margin-left: 10px;
+}
+
+
+.TodoItms
+{
+    width: 50%;
+    background: gainsboro;
+    height: 50px;
+    margin-top: 10px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.TodoItms_checked
+{
+    width: 5%;
+    margin-left: 10px;
+}
+.TodoItms_checked input
+{
+    width: 20px;
+    height: 20px;;
+}
+.TodoItms_delete_this
+{
+    background: red;
+    margin-right: 10px;
+    width: 90px;
+    height: 40px;;
+    font-size: 23px;
+    color: white;
+    outline:none;
+}
